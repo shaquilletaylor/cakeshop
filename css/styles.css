@@ -1,0 +1,231 @@
+body {
+  background-color: #FFE8E8;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: 'Kreon', serif;
+}
+h1 {
+  font-family: 'Charm', cursive;
+}
+h3 {
+  font-family: 'Birthstone Bounce', cursive;
+}
+
+/*-------------------- Navbar -------------------*/
+.navbar {
+  background-color: #f38ba0;
+  line-height: 1.8;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+}
+
+.navbar-nav a:hover {
+  color: #b5eaea;
+}
+.shopping-cart {
+  padding-right: 8px;
+}
+
+/*-------------------- Header -------------------*/
+.jumbotron {
+  padding-left: 0;
+}
+.home-page-button  {
+  background-color: #f38ba0;
+  color: #fff !important;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.header-img {
+  background: url(/css/images/homepage-header.jpg) no-repeat center center;
+  background-color: #FFE8E8;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-size: cover;
+}
+
+.cake-header-img {
+  background: url(/css/images/cakes/birthday12.jpg) no-repeat center center;
+  background-color: #FFE8E8;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-size: cover;
+}
+
+.cupcake-header-img {
+  background: url(/css/images/cupcakes/cupcakes5.jpg) no-repeat center center;
+  background-color: #FFE8E8;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-size: cover;
+}
+
+.cookies-header-img {
+  background: url('https://images.unsplash.com/photo-1558312657-b2dead03d494?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') no-repeat center center;
+  background-color: #FFE8E8;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-size: cover;
+}
+/*-------------------- Menu -------------------*/
+
+.divider {
+  margin: 5rem 5rem;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -0.05rem;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.cookies-featurette {
+  padding-bottom: 50px;
+}
+
+/*-------------------- Products Page Content -------------------*/
+.account-links {
+  text-align: right;
+  font-size: 20px;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.product-row,
+.col {
+  padding: 10px;
+}
+#filterButtons {
+  text-align: center;
+  padding-bottom: 0;
+  padding-top: 60px;
+}
+#filterButtons .btn {
+  background: transparent;
+  font-size: 18px;
+  
+}
+#filterButtons .btn:hover {
+  color: #f38ba0;
+}
+.show {
+  display: block;
+}
+
+.btn-group .btn:hover {
+  color: #f38ba0;
+}
+
+.card {
+  background: transparent;
+}
+
+
+/*-------------------- Checkout Page -------------------*/
+.container {
+  max-width: 960px;
+  padding-bottom: 60px;
+  padding-right: 10 px;
+  padding-left: 10 px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form-control,
+.form-select,
+.form-check-input {
+  border-color: #7f7c82;
+}
+
+.badge {
+  background-color: #f38ba0;
+}
+
+/*-------------------- Footer -------------------*/
+.footer-heading {
+  color: #f38ba0;
+}
+
+#products a:hover {
+  color: #b5eaea;
+}
+
+.social-icons i:hover {
+  color: #b5eaea;
+}
+
+#contact a {
+  color: #fff;
+}
+
+#contact a:hover {
+  color: #b5eaea;
+}
+
+.copyright {
+  background-color: #000;
+  font-size: 12px;
+}
+
+.copyright a {
+  text-decoration: none;
+}
+/*-------------------- Responsive -------------------*/
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
